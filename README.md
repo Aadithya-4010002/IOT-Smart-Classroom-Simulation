@@ -72,14 +72,14 @@ This project leverages motion sensors, a NeoPixel Ring, and an LCD display to cr
 ### Circuit Design
 ![Circuit Design](./PHOTO-2024-11-08-14-59-00-3.jpg)
 
-### Motion Detected State
-![Motion Detected State](./PHOTO-2024-11-08-14-59-00-4.jpg)
-
-### No Motion State
-![No Motion State](./PHOTO-2024-11-08-14-59-00-5.jpg)
-
 ### Simulation Environment
 ![Simulation Environment](./PHOTO-2024-11-08-14-59-00-6.jpg)
+
+### No Motion Detected State
+![Motion Detected State](./PHOTO-2024-11-08-14-59-00-4.jpg)
+
+### Motion State
+![No Motion State](./PHOTO-2024-11-08-14-59-00-5.jpg)
 
 ---
 
