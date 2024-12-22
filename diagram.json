@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 19.8, "left": -250.2, "attrs": {} },
+    {
+      "type": "wokwi-pir-motion-sensor",
+      "id": "pir1",
+      "top": -130.4,
+      "left": -122.58,
+      "attrs": {}
+    },
+    { "type": "wokwi-servo", "id": "servo1", "top": 74.8, "left": 432, "attrs": {} },
+    {
+      "type": "wokwi-led-ring",
+      "id": "ring1",
+      "top": -181.76,
+      "left": 557.99,
+      "attrs": { "pixels": "16" }
+    },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": -156.8,
+      "left": 72.8,
+      "attrs": { "pins": "i2c" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": -141.6,
+      "left": 424.2,
+      "attrs": { "volume": "0.1" }
+    }
+  ],
+  "connections": [
+    [ "pir1:VCC", "uno:5V", "red", [ "v0" ] ],
+    [ "pir1:GND", "uno:GND.1", "black", [ "v0" ] ],
+    [ "pir1:OUT", "uno:2", "green", [ "v0" ] ],
+    [ "lcd1:VCC", "uno:5V", "red", [ "h0" ] ],
+    [ "lcd1:GND", "uno:GND.1", "black", [ "h-268.8", "v144" ] ],
+    [ "lcd1:SDA", "uno:A4", "green", [ "h0" ] ],
+    [ "lcd1:SCL", "uno:A5", "green", [ "h0" ] ],
+    [ "servo1:PWM", "uno:5", "green", [ "h0" ] ],
+    [ "servo1:V+", "uno:5V", "green", [ "h0" ] ],
+    [ "servo1:GND", "uno:GND.2", "black", [ "h0" ] ],
+    [ "ring1:DIN", "uno:9", "green", [ "v0" ] ],
+    [ "ring1:VCC", "uno:5V", "red", [ "v0" ] ],
+    [ "ring1:GND", "uno:GND.3", "black", [ "v0" ] ],
+    [ "bz1:2", "uno:6", "green", [ "v0" ] ],
+    [ "bz1:1", "uno:GND.1", "green", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
