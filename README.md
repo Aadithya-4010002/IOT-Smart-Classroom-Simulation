@@ -16,6 +16,8 @@ An Arduino-based IoT project that automates smart classroom features like motion
 
 This project leverages motion sensors, a NeoPixel Ring, and an LCD display to create an automated smart classroom. When motion is detected, the system updates the LCD display, turns on a servo motor, and activates the NeoPixel Ring. After a timeout period with no motion, the system automatically turns off the devices, saving power.
 
+- [Project Demo:](https://drive.google.com/file/d/1I_CNRkPFz8bdZH27jC6cvJ_Jw8WXa2kn/view)
+
 ---
 
 ## 🛠️ Features
