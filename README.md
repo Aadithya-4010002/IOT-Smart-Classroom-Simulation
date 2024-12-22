@@ -67,19 +67,12 @@ This project leverages motion sensors, a NeoPixel Ring, and an LCD display to cr
 ## 🖼️ Visuals
 
 ### Source Code in VSCode
-![Source Code](PHOTO-2024-11-08-14-59-00-2.jpg)
+![Source Code in VSCode](./PHOTO-2024-11-08-14-59-00-2.jpg)
+![Circuit Design](./PHOTO-2024-11-08-14-59-00-3.jpg)
+![Motion Detected State](./PHOTO-2024-11-08-14-59-00-4.jpg)
+![No Motion State](./PHOTO-2024-11-08-14-59-00-5.jpg)
+![Simulation Environment](./PHOTO-2024-11-08-14-59-00-6.jpg)
 
-### Circuit Design
-![Circuit Design](PHOTO-2024-11-08-14-59-00-3.jpg)
-
-### Motion Detected State
-![Motion Detected](PHOTO-2024-11-08-14-59-00-4.jpg)
-
-### No Motion State
-![No Motion](PHOTO-2024-11-08-14-59-00-5.jpg)
-
-### Simulation Environment
-![Simulation Environment](PHOTO-2024-11-08-14-59-00-6.jpg)
 
 ---
 
